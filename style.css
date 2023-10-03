@@ -1,0 +1,21 @@
+@charset "UTF-8";
+h1 {
+    color: blue;
+	background-color:#70D7C6
+}
+body {
+    background-color:darkgray;
+}
+a {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: medium;
+    color: #08F2F4;
+}
+a:link {
+    color: #08F453;
+}
+img {
+    border: 10px groove #07EF4A;
+}
