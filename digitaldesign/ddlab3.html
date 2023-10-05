@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lab#3</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+<style>
+		div {
+			width: 100px;
+			height: 100px;
+			border: 3px solid blue;
+			font-size: 100px;
+		}
+
+		.Rclass {
+			transition: width 2s, background-color 4s;
+			color: turquoise;
+		}
+
+		.Rclass:hover {
+			background-color: hotpink;
+      width:600px;
+		}
+
+		.Iclass {
+			transition: width 2.5s, background-color 2s, border-width 2s;
+      color:red;
+		}
+
+		.Iclass:active {
+			background-color: green;
+			width: 150px;
+			border-width: 15px;
+		}
+
+    .Cclass {
+			transition: height 2s, background-color 1.5s, border-width 1.5s;
+			color: yellow;
+		}
+
+    .Cclass:hover{
+      background-color: black;
+      height: 200px;
+      border-width:10px;
+    }
+
+      .Hclass{
+			transition: width 2s, height 2s, transform 4s, background-color 1.5s, border-width 1.5s;
+			color: blue;
+		}
+
+    .Hclass:active{
+      background-color: purple;
+			width: 400px;
+      height: 100px;
+      border-width:10px;
+      transform: rotate(360deg);
+    }
+    
+    .Aclass{
+			transition: width 2s, height 2s, transform 4s, background-color 1.5s, border-width 1.5s;
+			color: crimson;
+		}
+
+    .Aclass:hover{
+      background-color: yellow;
+			width: 400px;
+      height: 100px;
+      border-width:10px;
+      transform:skewY(-30deg);
+    }
+
+    .periodclass{
+			transition: width 2s, height 2s, transform 4s, background-color 1.5s, border-width 1.5s;
+			color: black;
+		}
+
+    .periodclass:active{
+      background-color: gold;
+			width: 100px;
+      height: 100px;
+      border-width:10px;
+      transform:scale(-.5);
+
+
+	</style>
+</head>
+
+<body>
+	<h1> Lab #3 <br> What's my name again</h1>
+<p>Hover or click over each letter to see the transition effect:</p>
+	<div class="Rclass">R</div>
+
+	<div class="Iclass">I</div>
+
+  <div class="Cclass">C</div>
+
+  <div class="Hclass">H</div>
+  <br> 
+  <br>
+  <br>
+  <br>
+  <div class="Aclass">A</div>
+
+  <div class="periodclass">.</div>
+</body>
+</html>
