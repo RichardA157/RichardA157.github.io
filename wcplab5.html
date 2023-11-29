@@ -35,7 +35,7 @@
   <input type="date" required="required" for="dateofbirth">
 	<br>
   <label for="telephone">Phone Number:</label>
-	<input type="tel" required="required" for="phonenumber" min="10" max="10">
+	<input type="tel" required="required" for="phonenumber" pattern="{10}">
 	<br>
   <label for="email">Email:</label>
 	<input type="email" required="required" for="email">
@@ -44,7 +44,21 @@
 	<input type="url" for="url">
 	<br>
   <img src="../Artifacts/football.jpg" width="500" height="300" alt=""/>
-  <label for="interests"></label>
+	<br>
+  <label for="interests">Interests</label>
+	<br>
+  <br>
+	<input name="interests" type="radio" id="Basketball">
+  <label for="Basketball">Basketball</label>
+  <br>
+	<input name="interests" type="radio" id="Soccer">
+  <label for="Soccer">Soccer</label>
+  <br>
+	<input name="interests" type="radio" id="football">
+  <label for="football">Football</label>
+  <br>
+	<input name="interests" type="radio" id="Hockey">
+  <label for="Hockey">Hockey</label>
 	<p> <h4>Where did you hear about this site?</h4>
 	  <label>
 	    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
